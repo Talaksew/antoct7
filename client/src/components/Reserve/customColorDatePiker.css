@@ -1,0 +1,13 @@
+.rdrCalendarWrapper .rdrDayNumber span.rdrSelected {
+    background-color: #deb140 !important;
+    color: #ffffff !important;
+}
+
+.rdrCalendarWrapper .rdrDayNumber span.rdrInRange {
+    background-color: #f7d794 !important;
+    color: #000000 !important;
+}
+
+.rdrCalendarWrapper .rdrDayNumber span:hover {
+    background-color: #deb140 !important;
+}

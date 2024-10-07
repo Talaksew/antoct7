@@ -1,0 +1,71 @@
+
+.offer {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    font-family: "Open Sans";
+    .secContainer {
+      gap: 1rem;
+      margin-top: 4rem;
+     }
+    }
+input{
+    margin:.5rem 1rem;
+    padding: 10px;
+    justify-content: space-between;
+}
+textarea{
+    margin:.5rem 1rem;
+    padding: 20px;}
+button{
+        display: flex;
+        width: 30%;
+        padding-left: 1rem;
+        gap: 2rem;
+        
+
+        border: none;
+        background-color: #afdef1;
+        border-radius: 5px;
+        cursor: pointer;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        
+        &:hover{
+          border: 0cap;
+          background-color: #6cb2cd;
+          color: aliceblue;
+         }
+}
+.login{
+    margin-left: 15px;
+}
+.googleButton {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    color: black;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 15px;
+    margin-top: 5px;
+    text-decoration: none;
+  }
+  
+  .googleButton:hover {
+    background-color: #c5c5c5;
+  }
+  
+  .googleButton:active {
+    background-color: #e1e1e1;
+  }
+  .customBreak {
+    color: black;
+
+    display: block;
+    height: 20px; /* Adjust the height to your liking */
+  }

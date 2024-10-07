@@ -1,0 +1,40 @@
+.dropDownProfile {
+    display: flex;
+    flex-direction: row; /* Ensures the list items are in a row */
+    list-style-type: none;
+    position: absolute;
+    top: 5rem;
+    right: 4rem;
+    border-radius: 20px;
+    background-color: rgb(231, 231, 231);
+    box-shadow: 0 2px 8px 2px rgba(178, 178, 178, 0.189);
+    padding: 0; /* Remove any default padding */
+    margin: 0; /* Remove any default margin */
+    font-weight: 300;
+  }
+  
+  
+  .dropDownProfile li {
+    margin: 0 1rem; /* Adjust spacing between items */
+  }
+  
+  .dropDownMenu {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    position: absolute;
+    top: 5rem;
+    right: 1.5rem;
+    border-radius: 20px;
+    background-color: rgb(231, 231, 231);
+    font-weight: 300;
+    box-shadow: 0 2px 8px 2px rgba(178, 178, 178, 0.189);
+    padding: 0; /* Remove any default padding */
+    margin: 0; /* Remove any default margin */
+  }
+  
+ 
+  .dropDownMenu li {
+    padding: 0.5rem 1rem; /* Adjust padding for items */
+  }
+  
